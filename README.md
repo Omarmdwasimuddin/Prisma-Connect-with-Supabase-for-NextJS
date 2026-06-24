@@ -23,3 +23,4 @@ npx prisma init
 ![](https://imgur.com/Tqumq5m.png)
 
 ### 
+![](https://imgur.com/LPN7bu9.png)
