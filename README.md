@@ -20,4 +20,4 @@ npx prisma init
 ---
 
 ### Visit supabase.com --->go: dashboard --->click: New project --->
-[](https://imgur.com/Tqumq5m.png)
+![](https://imgur.com/Tqumq5m.png)
