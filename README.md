@@ -41,3 +41,34 @@ npx prisma generate
 
 #### Migration successfull!!!
 ![](https://imgur.com/dhgM3BI.png)
+
+### Create Inistance for API
+![]()
+```code
+import prisma from "@/lib/prisma";
+import { NextResponse } from "next/server";
+
+
+export async function POST(request:Request) {
+    try {
+        const json = await request.json();
+        const { email, name } = json;
+
+        const newUser = await prisma.user.create({
+            data: json,
+        })
+
+        return NextResponse.json(
+            {status: "success", data: newUser},
+            {status: 200}
+        )
+
+    } catch (error) {
+        console.log("User Create error:", error)
+        return NextResponse.json(
+            {status: "Error", message: "Internal server error"},
+            {status: 500}
+        )
+    }
+}
+```
