@@ -1,1 +1,1 @@
-# Prisma-connect-with-Supabase
+## Prisma-connect-with-Supabase
