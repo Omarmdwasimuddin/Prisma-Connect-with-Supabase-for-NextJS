@@ -26,9 +26,9 @@ npx prisma init
 ![](https://imgur.com/LPN7bu9.png)
 ![](https://imgur.com/PnewSZ3.png)
 
-### Modify--->
+### Modify--->prisma.config.ts and schema.prisma
 ![](https://imgur.com/jdzIgQD.png)
-
+![](https://imgur.com/mzSubgW.png)
 
 ### Migration and prisma client generated
 ```terminal
