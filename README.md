@@ -19,5 +19,7 @@ npx prisma init
 ```
 ---
 
-### Visit supabase.com --->go: dashboard --->click: New project --->
+### Visit supabase.com --->go: dashboard --->click: New project --->set Project name & Database password--->click: Create new project
 ![](https://imgur.com/Tqumq5m.png)
+
+### 
