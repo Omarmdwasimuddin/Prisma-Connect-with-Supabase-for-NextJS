@@ -25,3 +25,9 @@ npx prisma init
 ### click: Connect --->Select: ORM ---> copy: .env.local ---> paste: .env
 ![](https://imgur.com/LPN7bu9.png)
 ![](https://imgur.com/PnewSZ3.png)
+
+###
+```terminal
+npx prisma migrate dev --name init
+```
+---
